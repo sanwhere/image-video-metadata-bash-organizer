@@ -63,31 +63,31 @@ This option processes files based on certain naming conventions that include a d
 
 Here are the file naming conventions supported:
 
-#### a. `VID-YYYYMMDD-WA####.mp4`
+#### a. `VID-YYYYMMDD-WA####.*`
 Files that follow the pattern `VID-YYYYMMDD-WA####.mp4` are video files, typically from WhatsApp or other messaging platforms. The script will extract the date from the filename and update the `CreateDate` metadata accordingly.
 
 Example: 
 - `VID-20240906-WA0001.mp4` will have the date `2024:09:06 00:00:00` applied to the `CreateDate` field.
 
-#### b. `IMG-YYYYMMDD-WA####.jpg`
+#### b. `IMG-YYYYMMDD-WA####.*`
 Similar to the video files, image files with the pattern `IMG-YYYYMMDD-WA####.jpg` will have their dates extracted from the filename.
 
 Example: 
 - `IMG-20240906-WA0001.jpg` will have the date `2024:09:06 00:00:00` applied to the `CreateDate` field.
 
-#### c. `IMG_YYYYMMDD_HHMMSS_XXX.jpg`
+#### c. `IMG_YYYYMMDD_HHMMSS_XXX.*`
 This pattern is used for images that include both the date and time in the filename.
 
 Example: 
 - `IMG_20240216_124644_660.jpg` will have the date `2024:02:16 12:46:44` applied to the `CreateDate` field.
 
-#### d. `YYYYMMDD_HHMMSS.jpg`
+#### d. `YYYYMMDD_HHMMSS.*`
 Files that follow the pattern `YYYYMMDD_HHMMSS.jpg` are handled similarly, with the date and time being extracted from the filename and applied to the metadata.
 
 Example: 
 - `20240216_124644.jpg` will have the date `2024:02:16 12:46:44` applied to the `CreateDate` field.
 
-#### e. `Screenshot_YYYYMMDD_HHMMSS_WhatsApp.jpg`
+#### e. `Screenshot_YYYYMMDD_HHMMSS_WhatsApp.*`
 This pattern is typically used for screenshots saved from WhatsApp. The script will extract the date and time from the filename and update the metadata accordingly.
 
 Example: 
