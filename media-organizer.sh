@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory to scan (modify as needed)
-directory="/your/folder/path"
+directory="/your/folder/path" # Directory where the files will be scanned
 TARGET_DIR="/path/to/folder"  # Directory where tgz files will be extracted
 
 # Display options for the user
