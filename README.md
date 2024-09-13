@@ -23,17 +23,17 @@ This script is designed to automate the process of managing files, especially th
 
 ### 1. **Clone or download the script.**
 ```
-git clone https://your-repository-url
+git clone https://github.com/sanwhere/image-video-metadata-bash-organizer
 ```
 
 ### 2. **Make the script executable.**
 ```
-chmod +x your-script.sh
+chmod +x media-organizer.sh
 ```
 
 ### 3. **Run the script.**
 ```
-./your-script.sh
+./media-organizer.sh
 ```
 
 ---
